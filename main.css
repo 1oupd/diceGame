@@ -1,57 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body {
-    background-color:#c6fddd;
+  background-color: #c6fddd;
 }
 
-#dice1, #dice2, #dice3, #dice4, #dice5, #dice6 {
-    width: 5em;
+#dice1,
+#dice2,
+#dice3,
+#dice4,
+#dice5,
+#dice6 {
+  width: 5em;
 }
 
-img {
-    display: none;
+.p {
+  font-family: poppins, sans serif, arial;
+  font-size: 20px;
 }
-
 .bigcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    font-family: Poppins, sans serif, arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  font-family: Poppins, sans serif, arial;
 }
 
 .container1 {
-    background-color:rgb(129, 167, 129);
-    width: 50%;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    border-radius: 10px;
+  background-color: rgb(129, 167, 129);
+  width: 50%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
-.container1  h2, h3, h4, h5 {
-    align-self: center;
-    font-size: 18px;
+.container1 h2,
+h3,
+h4,
+h5 {
+  align-self: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+em {
+  font-size: 20px;
+  margin: 0em 1em 0em 1em;
 }
 
 .container2 {
-    background-color:rgb(129, 167, 129);
-    width: 50%;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    border-radius: 10px;
+  background-color: rgb(129, 167, 129);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 1em;
 }
 
-.container2 button{
-    font-family: Poppins, sans serif, arial;
-    background-color:rgb(106, 103, 117);
-    font-size: 16px;
-    font-weight: 600;
-    color:rgb(255, 255, 255);
-    border-radius: 10px;
+img {
+  margin-bottom: 2em;
+  border-radius: 1em;
+}
+
+button {
+  font-family: Poppins, sans serif, arial;
+  background-color: rgb(106, 103, 117);
+  font-size: 16px;
+  font-weight: 600;
+  width: 4em;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 p {
-    margin: 2em 2em 2em 2em;
+  margin: 2em 2em 2em 2em;
 }
